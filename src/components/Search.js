@@ -46,7 +46,7 @@ function Search() {
             weatherImage = "02d"
         } else if(data.weather[0].main == "Clear") {
             weatherImage = "01d"
-        } else if(data.weather[0].main == "Atmosphere") {
+        } else if(data.weather[0].main == "Mist" || data.weather[0].main == "Smoke" || data.weather[0].main == "Haze" || data.weather[0].main == "Dust" || data.weather[0].main == "Fog" || data.weather[0].main == "Sand" || data.weather[0].main == "Dust" || data.weather[0].main == "Ash" || data.weather[0].main == "Squall" || data.weather[0].main == "Tornado") {
             weatherImage = "50d"
         } else if(data.weather[0].main == "Snow") {
             weatherImage = "13d"
